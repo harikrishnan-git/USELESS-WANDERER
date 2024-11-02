@@ -1,12 +1,13 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-#Useless Wanderer 🎯
+# USELESS WANDERER 🎯
 
-##Basic Details
 
-###Team Name: Vazha
+## Basic Details
 
-###Team Members
+### Team Name: Vazha
+
+### Team Members
 
 • Team Lead: Harikrishnan B - College of Engineering Trivandrum 
 
@@ -14,21 +15,21 @@
 
 • Member 3: Anusreya Ganesh- College of Engineering Trivandrum 
 
-###Project Description
+### Project Description
 
 Our project is basically a misleading navigator that takes the used anywhere but the given destination and utilises the user's time with as many detours as possible. Your final destination might be close but never where you intended to go. Be sure to use our app if you have too much time on your hands!
 
-###The Problem (that doesn't exist)
+### The Problem (that doesn't exist)
 
 The Useless Wanderer solves the problem of not being able to traverse the longest route between your start and final destination!
 
-###The Solution (that nobody asked for)
+### The Solution (that nobody asked for)
 
 Our app gives you the most unnecessary detours and that too in way too many numbers until you reach your destination which will surely not be the one you actually wanted to go!
 
-##Technical Details
+## Technical Details
 
-###Technologies/Components Used
+### Technologies/Components Used
 
 For Software:
 
@@ -48,27 +49,27 @@ For Hardware:
 
 • List tools required: Computer with internet access, Web server for hosting (optional for local testing)
 
-###Implementation
+### Implementation
 
 For Software:
 
-#Installation
+# Installation
 
 • Clone the repository from git.
 
 • Open in Visual Studio Code.
 
-#Run
+# Run
 
 • Open index.html in a web browser.
 
 • Ensure your Google Maps API key is correctly configured in the script tag.
 
-###Project Documentation
+### Project Documentation
 
 For Software:
 
-#Screenshots
+# Screenshots
 
  
 This screenshot shows the initial map view with user location marked.
@@ -79,54 +80,54 @@ This screenshot displays the route and detours after the journey has started.
  
 This screenshot highlights the notification system, providing user feedback.
 
-#Diagrams
+# Diagrams
 
-[User Opens App]
-        |
- [Enter Destination]
-        |
- [Location Retrieved?]
-      /    \
-    Yes    No
-   /         \
-[Calculate] [Display Error]
-   |          Notification
-[Display Route]
-        |
-   [User Actions]
-      / | | \
-     /  | |  \
-[Start][Pause][Reset]
-      |      |
-[Dynamic Updates]  
-        |
-[Display Notifications]
+[User Opens App]<br>
+        |<br>
+ [Enter Destination]<br>
+        |<br>
+ [Location Retrieved?]<br>
+      /    \<br>
+    Yes    No<br>
+   /         \<br>
+[Calculate] [Display Error]<br>
+   |          Notification<br>
+[Display Route]<br>
+        |<br>
+   [User Actions]<br>
+      / | | \<br>
+     /  | |  \<br>
+[Start][Pause][Reset]<br>
+      |      |<br>
+[Dynamic Updates] <br> 
+        |<br>
+[Display Notifications]<br>
 
 This diagram illustrates the application's workflow from user input to map display and routing updates.
 
 For Hardware:
 
-#Schematic & Circuit
+# Schematic & Circuit
 
 This schematic is not applicable as there are no hardware components.
 
-#Build Photos
+# Build Photos
 
 This section is not applicable for a web-based project.
 
-##Project Demo
+## Project Demo
 
-#Video
+# Video
 
 
 This video demonstrates the application's functionality, including searching for destinations, starting a journey, and the dynamic routing feature.
 
-#Additional Demos
+# Additional Demos
 
 No extra Demos.
 Links to additional documentation or demo videos can be added here.
 
-##Team Contributions
+## Team Contributions
 
 • Abhijeet Nair: Developed the main application logic, integrated the Google Maps API for geolocation and routing, and implemented the journey management features.
 
