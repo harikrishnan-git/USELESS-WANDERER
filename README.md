@@ -71,14 +71,15 @@ For Software:
 
 # Screenshots
 
- 
-This screenshot shows the initial map view with user location marked.
+![s1](https://github.com/user-attachments/assets/8b80d778-7e97-4c74-9996-fe209fe62e35)<br>
+This screenshot shows the initial map view with user location marked.<br>
 
- 
-This screenshot displays the route and detours after the journey has started.
 
- 
-This screenshot highlights the notification system, providing user feedback.
+![s2](https://github.com/user-attachments/assets/08d4bd0a-7876-4497-8b95-14b8762a2762)<br>
+This screenshot displays the route and detours after the journey has started.<br>
+
+![s3](https://github.com/user-attachments/assets/af813fe0-005c-4704-9c69-c4c4f46eb4e1) <br>
+This screenshot highlights the notification system, providing user feedback.<br>
 
 # Diagrams
 
