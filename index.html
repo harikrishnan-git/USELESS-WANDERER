@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misdirection Mapper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6FkbXu5y17t0GyWpnvWFkX3UAkOwQDkE&libraries=places,geometry,visualization&callback=initMap"
+      async
+      defer
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@googlemaps/extended-component-library@0.6"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Misdirection Mapper</h1>
+    </header>
+    <div class="container">
+      <div class="controls">
+        <input
+          id="searchBox"
+          type="text"
+          placeholder="Search for your destination..."
+        />
+        <button onclick="startJourney()">Start Journey</button>
+        <button onclick="pauseJourney()" id="pauseBtn">Pause</button>
+        <button onclick="resetJourney()" id="resetBtn">Reset</button>
+        <button onclick="toggleTrafficLayer()">Toggle Traffic</button>
+        <button onclick="toggleTransitLayer()">Toggle Transit</button>
+      </div>
+      <div id="map"></div>
+      <div class="recent-searches">
+        <h3>Recent Searches</h3>
+        <ul id="recentSearches"></ul>
+      </div>
+      <div id="steps" class="steps"></div>
+      <div class="notifications" id="notification"></div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Misdirection Mapper. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
